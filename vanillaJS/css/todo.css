@@ -1,0 +1,43 @@
+.todo {
+  padding: 20px;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  width: 600px;
+}
+
+.todoForm {
+  display: flex;
+  margin-top: 10px;
+}
+.todo form {
+  margin: 0px 100px;
+}
+
+.todoList {
+  display: flex;
+  width: 800px;
+}
+
+.todoList_today,
+.todoList_tommorow {
+  background-image: url("images/note.png");
+  background-size: 100% 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.todoList ul {
+  margin-top: 0px;
+  font-size: 30px;
+}
+
+.todo span {
+  margin-right: 10px;
+}
+
+.done {
+  text-decoration: line-through;
+}

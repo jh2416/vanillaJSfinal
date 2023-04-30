@@ -1,0 +1,40 @@
+.header {
+  position: relative;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 30px;
+  margin: 0px 130px;
+  width: 70%;
+  padding-bottom: 20px;
+}
+
+.greeting {
+  font-size: 40px;
+  padding: 20px;
+}
+
+.dateAndClock {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.clock {
+  font-size: 45px;
+}
+
+.weatherPt {
+  background-color: rgba(9, 152, 254, 0.5);
+  border-radius: 10px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  right: 10px;
+  top: 40px;
+  font-size: 18px;
+}

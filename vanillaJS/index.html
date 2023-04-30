@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>MyMomentum</title>
+  </head>
+  <body>
+    <div class="initialize showing">
+      <h1>Hello! Who are you?</h1>
+      <form class="getName">
+        <input type="text" placeholder="write your name" />
+      </form>
+    </div>
+    <div class="header">
+      <span class="greeting">Main contents</span>
+      <div class="dateAndClock">
+        <span class="date"></span>
+        <span class="clock"></span>
+      </div>
+      <div class="weatherPt">
+        <span class="weather"></span>
+      </div>
+    </div>
+    <div class="todo">
+      <div class="todoForm">
+        <form class="addToday">
+          <input type="text" placeholder="Add today job" />
+        </form>
+        <form class="addTommorow">
+          <input type="text" placeholder="Add tommorw job" />
+        </form>
+      </div>
+      <div class="todoList">
+        <div class="todoList_today">
+          <h1>Today</h1>
+          <ul></ul>
+        </div>
+        <div class="todoList_tommorow">
+          <h1>Tommorow</h1>
+          <ul></ul>
+        </div>
+      </div>
+    </div>
+    <script src="js/getName.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/bg.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/todo.js"></script>
+  </body>
+</html>
